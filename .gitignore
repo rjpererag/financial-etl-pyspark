@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installed packages
+*.whl
+
+# Logs and local environment
+*.log
+*.env
+.envrc
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# SQLite database
+*.sqlite3
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+
+# Airflow-specific
+airflow.cfg
+unittest.cfg
+logs/

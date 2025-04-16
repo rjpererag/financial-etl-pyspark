@@ -1,12 +1,16 @@
-# Financial data ETL orchestrator - PySpark
+# Realtime IoT Data Streaming - Kafka and Spark demonstration
 
 ## Project description
-With the following is to show real world example on the implementation of PySpark
-in the financial environment by simulating a classic ETL pipeline.
+The goal of this project is to create a real world example on how we could deal with real time data
+using Apache Kafka and Spark, as technologies to stream realtime data into a NoSQL database.
+
+## Technologies
+- Docker
+- Apache Kafka
+- Apache Spark
+- MongoDB
 
 ## Structure
-
-- DataExtractor
-- DataTransformer
-- DataLoader
-- ETLPipline
+- IoT generator: fake data
+- Kafka Producer
+- Kafka Consumer
